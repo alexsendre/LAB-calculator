@@ -17,7 +17,6 @@ body {
   color: white;
 }
 
-
 .wrapper {
   width: 400px;
   background-color: black;
@@ -44,6 +43,10 @@ body {
   background-color: #ebebeb;
 }
 
+.num:active {
+  background-color: #bbbcbe;
+}
+
 .sign {
   background-color: #df974c;
   color: white;
@@ -53,6 +56,10 @@ body {
   background-color: #dfb07e;
 }
 
+.sign:active {
+  background-color: #dd8d37;
+}
+
 .double-space {
   flex-basis: 50%;
 }
@@ -60,17 +67,3 @@ body {
 .triple-space {
   flex-basis: 75%;
 }
-
-/* .num {
-  display: flex;
-  justify-content: space-between;
-  width: 24.5%;
-  margin-bottom: -5px;
-  align-content: stretch;
-}
-
-button {
-  display: flex;
-
-
-} */
